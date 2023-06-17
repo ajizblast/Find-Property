@@ -1,0 +1,180 @@
+:root {
+    --pr-color: #048853;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3fff4;
+}
+
+/* Navbar start */
+
+.navbar {
+    z-index: 3;
+}
+
+* {
+    z-index: 2;
+}
+
+.accent-img {
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Navbar end */
+
+/* hero section start */
+
+#hero {
+    background: linear-gradient(160deg, var(--pr-color), #000);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero {
+    height: 100%;
+    z-index: 1;
+}
+
+.hero-tagline h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+}
+
+.hero-tagline p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 84%;
+}
+
+.button-lg-primary {
+    width: 236px;
+    height: 70px;
+    background-color: #fff;
+    color: var(--pr-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* hero section end */
+
+/* Service section */
+
+#service {
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #000;
+}
+
+.service-card {
+    width: 100%;
+    height: 312px;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+
+    transition: all .5s ease-in;
+}
+
+.circle-icon {
+    width: 86px;
+    height: 86px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+
+    transition: all .2s ease-in;
+}
+
+.service-card h3 {
+    color: var(--pr-color);
+    font-size: 24px;
+
+    transition: all .3s ease-in;
+}
+
+.service-card p {
+    color: #000;
+    font-size: 14px;
+
+    transition: all .4s ease-in;
+}
+
+/* Hover */
+
+
+.service-card:hover {
+    width: 100%;
+    height: 312px;
+    border-radius: 6px;
+    background: linear-gradient(160deg, var(--pr-color), #00170e);
+    padding: 40px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    transition: all .5s ease-out;
+}
+
+.service-card:hover .circle-icon {
+    background-color: #fff;
+    transition: all .2s ease-out;
+}
+
+.service-card:hover h3 {
+    color: #fff;
+    font-size: 24px;
+    transition: all .3s ease-in;
+}
+
+.service-card:hover p {
+    color: #fff;
+    font-size: 14px;
+    transition: all .4s ease-in;
+}
+
+/* end of service section */
